@@ -1,0 +1,389 @@
+{
+    "data": {
+        "vesselTimeline": {
+            "nodes": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-17T22:46:06.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -6.09748,
+                        35.89562
+                    ],
+                    "endCoordinate": [
+                        -6.09748,
+                        35.89562
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-17T23:17:28.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -5.9493100000000005,
+                        35.89929
+                    ],
+                    "endCoordinate": [
+                        -5.9493100000000005,
+                        35.89929
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-17T23:17:28.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -5.9493100000000005,
+                        35.89929
+                    ],
+                    "endCoordinate": [
+                        -5.9493100000000005,
+                        35.89929
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-18T01:40:24.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -5.273059999999999,
+                        35.99011
+                    ],
+                    "endCoordinate": [
+                        -5.273059999999999,
+                        35.99011
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-20T17:33:58.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        12.048590000000006,
+                        37.01333000000002
+                    ],
+                    "endCoordinate": [
+                        12.048590000000006,
+                        37.01333000000002
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-22T08:07:16.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        22.390110000000004,
+                        36.32912
+                    ],
+                    "endCoordinate": [
+                        22.390110000000004,
+                        36.32912
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-23T09:16:46.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        25.91008,
+                        39.91359
+                    ],
+                    "endCoordinate": [
+                        25.91008,
+                        39.91359
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-23T09:16:46.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        25.91008,
+                        39.91359
+                    ],
+                    "endCoordinate": [
+                        25.91008,
+                        39.91359
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-23T10:05:06.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        26.01902000000001,
+                        39.98696
+                    ],
+                    "endCoordinate": [
+                        26.01902000000001,
+                        39.98696
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-25T00:00:10.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        28.993480000000005,
+                        40.96058
+                    ],
+                    "endCoordinate": [
+                        28.993480000000005,
+                        40.96058
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-27T00:32:34.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        41.00702,
+                        41.78177000000001
+                    ],
+                    "endCoordinate": [
+                        41.00702,
+                        41.78177000000001
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc77b68ca120a07db416",
+                    "startDate": "2021-02-27T02:19:15.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        41.42636,
+                        41.73899
+                    ],
+                    "endCoordinate": [
+                        41.42636,
+                        41.73899
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07db9ed",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {},
+                {},
+                {},
+                {},
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc78b68ca120a07db9ed",
+                    "startDate": "2021-03-26T11:44:58.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        30.9578,
+                        46.29642
+                    ],
+                    "endCoordinate": [
+                        30.9578,
+                        46.29642
+                    ],
+                    "nextPortId": "575ff57cccdac3f767dd0036",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {},
+                {},
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "575ff57cccdac3f767dd0036",
+                    "startDate": "2021-04-05T13:44:25.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -5.16718,
+                        36.05219
+                    ],
+                    "endCoordinate": [
+                        -5.16718,
+                        36.05219
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07dbcf7",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {},
+                {},
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "575ff57cccdac3f767dd0036",
+                    "startDate": "2021-04-06T07:46:08.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -9.051819999999998,
+                        36.7249
+                    ],
+                    "endCoordinate": [
+                        -9.051819999999998,
+                        36.7249
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07dbcf7",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "duration": 0,
+                    "vesselId": "59082c0c778af179708585dc",
+                    "previousPortId": "5358fc78b68ca120a07dbcfd",
+                    "startDate": "2021-05-13T15:21:30.000Z",
+                    "type": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON",
+                    "startCoordinate": [
+                        -22.907919999999994,
+                        15.091730000000002
+                    ],
+                    "endCoordinate": [
+                        -22.907919999999994,
+                        15.091730000000002
+                    ],
+                    "nextPortId": "5358fc78b68ca120a07dbbd9",
+                    "extraFields": {
+                        "activityType": "DEVIATION_FROM_PATTERN_FIRST_IN_POLYGON"
+                    }
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "totalCount": 92
+        }
+    }
+}
