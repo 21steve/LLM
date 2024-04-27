@@ -1,4 +1,16 @@
-risk_assessment_query_string='''query VesselsByIMOs($imo: String!) {
+'''This file contains all the strings functions to format the payload while sending requests
+ to the graphql endpoint'''
+
+
+def risk_assessment_query_string():
+  '''Returns the risk assessment query string to be used in the payload for risk assesment
+  
+  Returns:
+  ----------------
+  str: The risk assessment query string
+  '''
+
+  return '''query VesselsByIMOs($imo: String!) {
   vesselByIMO(imo: $imo) {
     id
     riskAssessment {
@@ -29,6 +41,32 @@ risk_assessment_query_string='''query VesselsByIMOs($imo: String!) {
 }'''
 
 def activities_input(includePropertyChanges:bool,limit:int,offset:int,from_date:str,to_date:str,vesselIdOrImo:str,coordinates:list[list]=None)->dict:
+  '''27/04 This returns the propely formatted variables to send in the payload for the activities function
+  Args:
+  ----------------
+  includePropertyChanges: bool
+
+  limit: int
+      The number of activities to return. The max limit is 500
+  offset: int
+
+  from_date: str
+      The start date of the time frame formatted as ISO 8601
+  to_date: str
+      The end date of time frame formatted as ISO 8601
+  vesselIdOrImo: str
+      The vessel unique ID assingned by windward or the vessel IMO number
+  coordinates: list[list]
+      The coordinates for the polygon passed as a list conatining each individual lat and logitude as list
+  
+  Returns:
+  ----------------
+  dict: The formatted variables to send in the payload for the request to get activities iwthin a polygon and time frame
+  '''
+  
+  
+  # an example of the coordinates list
+  
   # "polygon": {
   #     "type": "Polygon",
   #     "coordinates": [
@@ -56,7 +94,7 @@ def activities_input(includePropertyChanges:bool,limit:int,offset:int,from_date:
   #       ]
   #     ]
   #   }
-  if coordinates:
+  if coordinates: #27/04 if not coordinates are passed then "null" string is returned with the polygon else the coordinates are formatted as a polygon 
     polygon={
         "type": "Polygon",
         "coordinates": [
@@ -69,7 +107,7 @@ def activities_input(includePropertyChanges:bool,limit:int,offset:int,from_date:
   return {
   "input": {
     "includePropertyChanges": includePropertyChanges,
-    "limit": limit,
+    "limit": limit, 
     "offset": offset,
     "timeRange": {
       "from": from_date,
@@ -143,11 +181,18 @@ def activities_input(includePropertyChanges:bool,limit:int,offset:int,from_date:
         "type": "BAD_WEATHER"
       }
     ],
-    "polygon": polygon,
+    "polygon": polygon, 
   }
 }
 
-activities_query_string='''query VesselTimeline($input: VesselTimelineInput!) {
+def activities_query_string()->str:
+  '''Returns the activities query string to be used in the payload for activities
+  
+  Returns:
+  ----------------
+  str: The activities query string
+  '''
+  return '''query VesselTimeline($input: VesselTimelineInput!) {
   vesselTimeline(input: $input) {
     nodes {
       ... on Activity {
