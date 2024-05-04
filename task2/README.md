@@ -36,7 +36,7 @@ The VesselWatch project is structured around several key files that work togethe
 
 - **main.py**: This is the main business model file where the core logic of the application resides. It orchestrates the flow of data through the system, including fetching and processing data from the GraphQL endpoint.
 
-- **tokenizer.py**: This file is responsible for renewing tokens. It contains the `GraphQLClient` class, which manages the authentication process with the GraphQL endpoint, ensuring that requests are made securely and that tokens are refreshed as needed.
+-**tokenizer.py**: This file manages token renewal and authentication with the GraphQL endpoint. It includes the GraphQLClient class, which utilizes a decorator function to ensure secure authentication and token refreshment during requests. This class facilitates the authentication process, enhancing the security of communication with the GraphQL endpoint.
 
 - **queries.py**: This file holds the query strings used to interact with the GraphQL endpoint. It includes functions like `risk_assessment_query_string()` and `activities_query_string()`, which return the query strings for fetching risk assessments and vessel activities. These queries are constructed to retrieve specific data from the GraphQL API, tailored to the needs of the application.
 
