@@ -4,9 +4,6 @@
 - [Project Description](#project-description)
 - [Technical Specifications](#technical-specifications)
 - [Working with the Code](#working-with-the-code)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Future Plans](#future-plans)
 - [Queries and Related Components](#queries-and-related-components)
 - [Files and Their Roles](#files-and-their-roles)
@@ -35,19 +32,6 @@ VesselWatch empowers users to extract valuable insights from maritime data, incl
 ## Working with the Code
 
 To work with the VesselWatch code, you'll need to set up your development environment with Python and ensure you have the necessary libraries installed. Familiarize yourself with the structure of the project, particularly the `Query` class and its methods, to understand how data is fetched and processed.
-
-## Usage
-
-To use VesselWatch, you need to initialize the `GraphQLClient` with your credentials and endpoint URL. Then, you can use the `Query` class to fetch risk assessments and vessel activities. Here's a brief example:
-
-
-## Contributing
-
-Contributions to VesselWatch are welcome. Please feel free to submit pull requests or report issues.
-
-## License
-
-VesselWatch is licensed under the MIT License. See `LICENSE` for more details.
 
 ## Future Plans
 
